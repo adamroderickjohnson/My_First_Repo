@@ -1,0 +1,117 @@
+@font-face{
+			font-family: myFont;
+			src: url('hunter.woff');
+}
+
+h1, h2, h3, h4, p, em, .caption{
+		font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+	color: black;
+}
+
+h2{
+	font-weight: 300;
+	text-align: center;
+}
+h4{
+	color: #F4F0DC;
+	font-weight: 500;
+}
+p{
+	color: #F4F0DC;
+	font-weight: 200;
+}
+em{
+	font-style: italic;
+/*	color: #F4F0DC;
+	font-size: .8em;*/
+}
+.copy{
+	font-size: .8em;
+}
+
+h4 strong{
+	font-weight: bolder;
+}
+footer{
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+}
+
+section{
+	font-family: 'Libre Baskerville', serif;
+	font-size: .95em;
+}
+
+ol li {
+
+    list-style: none;
+    font-family: 'myFont', serif;
+    font-size: 1.2em;
+}
+
+ol li a{
+	text-decoration: none;
+	color: black;
+}
+
+ul li {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1140px){
+	ol li {
+    	list-style: none;
+    	font-family: 'myFont', serif;
+    	font-size: 1.2em;
+	}
+
+	h2{
+		font-family: 'Libre Baskerville', serif;
+		font-weight: 300;
+		font-size: .7em;
+		text-align: center;
+	}
+
+	.copy{
+		font-size: 1em;
+	}
+
+}
+
+
+@media screen and (max-width: 1000px){
+		ol li {
+
+	    	list-style: none;
+	    	font-family: 'myFont', serif;
+	    	font-size: 1.2em;
+		}
+}
+
+
+@media screen and (max-width: 760px){
+		ol li {
+
+	    	list-style: none;
+	    	font-family: 'myFont', serif;
+	    	font-size: 1.2em;
+		}
+		.copy{
+			font-size: 1em;
+		}
+}
+
+
+@media screen and (max-width: 540px){
+ 	ol li {
+ 		font-weight: 550;
+ 		font-size: 1em;
+ 	}
+
+ 	.copy{
+ 		font-size: .6em;
+ 	}
+ }
